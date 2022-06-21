@@ -389,13 +389,6 @@
 
     <script src="scripts.js"></script>
     <script>
-        $('.delay').hide();
-        setTimeout(function () {
-            $('.delay').show();
-        }, 0 * 1000);
-        //1170
-    </script>
-    <script>
         $(document).ready(function () {
             $.get("https://ssl.geoplugin.net/json.gp?k=292af9fb00c1353d", function (resp) {
                 var data = JSON.parse(resp);
