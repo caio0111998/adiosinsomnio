@@ -398,6 +398,13 @@
  
 
     <script src="scripts.js"></script>
+          <script>
+        $('.delay').hide();
+        setTimeout(function () {
+            $('.delay').show();
+        }, 710 * 1000);
+        //1170
+    </script>
     <script>
         $(document).ready(function () {
             $.get("https://ssl.geoplugin.net/json.gp?k=292af9fb00c1353d", function (resp) {
